@@ -10,6 +10,13 @@
  */
 
 module.exports.bootstrap = function(cb) {
+
+  // if (process.env.NODE_ENV === )
+  // 
+  if (sails.config.environment === 'production') {
+    return cb();
+  }
+
   var FixtureBootstrapper = require('../fixtures');
   return FixtureBootstrapper(cb);
 
