@@ -87,10 +87,9 @@ module.exports.connections = {
     host: 'ec2-107-21-223-72.compute-1.amazonaws.com',
     user: 'abkxqqdsqqabmu',
     password: 'xMDk64goP92kjeafuB1HWSqxVu',
-    database: 'brushfire',
-    ssl: {
-      rejectUnauthorized: false
-    }
+    database: 'd2nrdngav0n7fu',
+    port: '5432',
+    ssl: true
   }
 
 
